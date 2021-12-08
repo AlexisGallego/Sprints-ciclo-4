@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
+
+    <script type="../components/Login.js" defer>
+        
+    </script>
 </head>
 <body>
     <div id='login'>
-        <label for="usuario"> usuario </label>
-        <input type="text" name="usuario" id="username">
-        <label for="contraseña"> contraseña </label>
-        <input type="password" name="contraseña" id="password">
-        <label for="placa"> placa </label>
-        <input type="text" name="placa" id="licensePlate">
-        <button onclick="">iniciar sesion</button>
-        <button type="submit" onclick=""> Registrarse </button>
-        <button type="submit" onclick=""> Recuperar contraseña </button>
+        <label for="username"> usuario </label>
+        <input type="text" name="username" id="username">
+
+        <label for="password"> contraseña </label>
+        <input type="password" name="password" id="password">
+
+        <label for="licensePlate"> placa </label>
+        <input type="text" name="licensePlate" id="licensePlate">
+
+        <button id = 'login'>iniciar sesion</button>
+
+        <button id = 'registrarse'> Registrarse </button>
+        <button id = 'Recuperarcontraseña'> Recuperar contraseña </button>
     </div>
 </body>
 </html>
