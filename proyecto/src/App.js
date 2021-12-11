@@ -1,11 +1,11 @@
+import react from 'react'
 import React from 'react'
+import login from './components/Login'
 
 function App() {
-  return (
-    <div>
-      <button type="submit">Login</button>
-    </div>
-  )
+  <div>
+    <h1>learn react</h1>
+  </div>
 }
 
 export default App
