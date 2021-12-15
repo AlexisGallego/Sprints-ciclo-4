@@ -1,1 +1,0 @@
-var registro = document.getElementById('Registro')
